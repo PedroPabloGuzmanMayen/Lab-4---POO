@@ -10,6 +10,13 @@ public class CarC implements ICarC {
 	private float station;
 	private String carClass;
 	private boolean isPhoneConnected;
+	
+	public CarC() {
+		station = (float) 0.0;
+		stations = new  ArrayList<Float>();
+		volume = 0;
+		
+	}
     @Override
     public boolean SwitchRadioONOFF() {
         
@@ -179,5 +186,7 @@ public class CarC implements ICarC {
 		this.isPhoneConnected = isPhoneConnected;
 	}
 
-    
+    public ArrayList<Float> getStations(){
+    	return stations;
+    }
 }
