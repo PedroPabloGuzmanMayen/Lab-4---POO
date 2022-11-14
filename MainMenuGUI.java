@@ -63,7 +63,8 @@ public class MainMenuGUI extends JFrame {
 		JButton btnNewButton_3 = new JButton("Productividad");
 		btnNewButton_3.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				ProductivityGUI productivity = new ProductivityGUI();
+				ProductivityGUI prod = new ProductivityGUI();
+				
 			}
 		});
 		btnNewButton_3.setBounds(171, 175, 117, 29);
